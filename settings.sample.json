@@ -1,0 +1,22 @@
+{
+  "processes": [
+    {
+      "name": "qbittorrent",
+      "ionice_class": "idle"
+    },
+    {
+      "name": "transmission",
+      "ionice_class": "idle"
+    },
+    {
+      "name": "mergerfs",
+      "ionice_class": "best-effort",
+      "ionice_class_data": 5
+    },
+    {
+      "name": "firefox",
+      "ionice_class": "best-effort",
+      "ionice_class_data": 1
+    }
+  ]
+}
